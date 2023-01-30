@@ -1,0 +1,31 @@
+.notecard{
+    transform: scaleX(.95);
+}
+.showNote{
+    cursor: pointer;
+}
+.notecard i{
+    font-size: 60px;
+    color: #ff7f50;
+    cursor: pointer;
+}
+.notecard h4{
+    color: #ff7f50;
+}
+#desc{
+    resize: none;
+}
+.field{
+    border: 1px solid #222;
+}
+.button{
+    background-color: #ff7f50;
+    color: #fff;
+}
+.button:hover{
+    color: #fff !important;
+    background-color: #eb4407;
+}
+.button:active{
+    background-color: #ff7f50;
+}
