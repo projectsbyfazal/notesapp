@@ -3,9 +3,9 @@ import './style.css';
 import NoteItem from './NoteItem';
 
 function getLocalNotes(){
-    const data = JSON.parse(localStorage.getItem('localNotes'));
+    const data = localStorage.getItem('localNotes') && JSON.parse(localStorage.getItem('localNotes'));
 
-    if(data.length>0)
+    if(data && data.length>0)
         return data;
     else
         return [];
